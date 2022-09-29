@@ -11,6 +11,8 @@
 		539E8E6B28E31E890014B280 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E6A28E31E890014B280 /* ContentView.swift */; };
 		539E8E6D28E31E8A0014B280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539E8E6C28E31E8A0014B280 /* Assets.xcassets */; };
 		539E8E7028E31E8A0014B280 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539E8E6F28E31E8A0014B280 /* Preview Assets.xcassets */; };
+		539E8E7728E31EAE0014B280 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E7628E31EAE0014B280 /* Model.swift */; };
+		539E8E7928E31ECC0014B280 /* GitHubApiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539E8E7828E31ECC0014B280 /* GitHubApiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		539E8E6A28E31E890014B280 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		539E8E6C28E31E8A0014B280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		539E8E6F28E31E8A0014B280 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		539E8E7628E31EAE0014B280 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		539E8E7828E31ECC0014B280 /* GitHubApiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				539E8E6828E31E890014B280 /* GithubApiApp.swift */,
 				539E8E6A28E31E890014B280 /* ContentView.swift */,
+				539E8E7628E31EAE0014B280 /* Model.swift */,
+				539E8E7828E31ECC0014B280 /* GitHubApiView.swift */,
 				539E8E6C28E31E8A0014B280 /* Assets.xcassets */,
 				539E8E6E28E31E8A0014B280 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				539E8E7728E31EAE0014B280 /* Model.swift in Sources */,
 				539E8E6B28E31E890014B280 /* ContentView.swift in Sources */,
+				539E8E7928E31ECC0014B280 /* GitHubApiView.swift in Sources */,
 				539E8E6928E31E890014B280 /* GithubApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
